@@ -18,6 +18,19 @@ One of the key features of DND is its interactive scheduling system. Users can e
 By streamlining scheduling processes and utilizing Gmail as the messaging platform, DND mitigates uncertainties and strengthens communication dynamics within social circles. Whether it's coordinating meetings, organizing study sessions, or planning social events, DND simplifies the coordination process, reducing conflicts, and enhancing overall productivity.
 
 ## Instructions
+1. Ensure you have a local web server environment set up, such as Apache or Nginx. You can use tools like XAMPP, WAMP, or MAMP that provide a bundled web server package.
+
+2. Move the cloned repository into the document root directory of your web server. For example, if you are using XAMPP, move the repository folder to the htdocs directory.
+
+3. Rename the primary website file to main_index.php. This ensures that the web server recognizes it as the default entry point.
+
+4. Start your local web server.
+
+5. Open your preferred web browser and navigate to http://localhost/DND/main_index.php. Adjust the URL based on your web server configuration and the location of the cloned repository.
+
+6. The DND web application should now be accessible through your local web server, and you can begin using its features.
+
+7. On the startup screen, you can either register for a new account or log in to an existing account. Once logged in, you can create meetings, invite participants, and manage your schedule.
 
 ### Startup Screen (Registration or Login)
 1. Open the DND web application on your local machine.
